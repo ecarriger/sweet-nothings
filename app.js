@@ -16,4 +16,6 @@ const generateMessage = () => {
     const good = pickRand(goodThing);
     return `${nick}, ${comp} ${good}!`;
 };
-console.log(generateMessage());
+const message = () => {
+    console.log(generateMessage());
+};
